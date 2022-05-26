@@ -1,0 +1,17 @@
+# <---- EDA Tools ----> #
+
+# Data Handling
+numpy
+pandas
+
+#  Visualization
+seaborn
+matplotlib
+holoviews
+missingno
+
+# Dashboard
+panel
+
+# <---- Prototype Dependencies ----> #
+dash
