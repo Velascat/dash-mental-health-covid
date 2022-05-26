@@ -20,6 +20,9 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 # Init Dash App
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
+# Init Dash App Server
+server = app.server
+
 # <----------------------------> #
 # <-------- Web Layout --------> #
 # <----------------------------> #
