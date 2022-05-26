@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 
 
 # Get Data
-url = ('https://raw.githubusercontent.com/Velascat/dash-mental-health-covid/main/data/data.csv?token=GHSAT0AAAAAABU7KUPFSGUKK5ZFKYQAVWYEYUPSLDA')
+url = ('https://raw.githubusercontent.com/Velascat/dash-mental-health-covid/main/data/data.csv')
 
 df_origin = pd.read_csv(url)
 
