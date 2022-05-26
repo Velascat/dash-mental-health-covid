@@ -10,9 +10,9 @@ import plotly.graph_objects as go
 
 
 # Get Data
-url = ('https://raw.githubusercontent.com/Velascat/dash-mental-health-covid/main/data/data.csv?' +
-       'token=GHSAT0AAAAAABU7KUPFSGUKK5ZFKYQAVWYEYUPSLDA')
-df_origin = pd.read_csv(url, index_col=0)
+url = ('https://raw.githubusercontent.com/Velascat/dash-mental-health-covid/main/data/data.csv?token=GHSAT0AAAAAABU7KUPFSGUKK5ZFKYQAVWYEYUPSLDA')
+
+df_origin = pd.read_csv(url)
 
 # Get External CSS Sheet
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
