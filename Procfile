@@ -1,1 +1,1 @@
-web (Free):python run.py
+web gunicorn run:app --preload --workers 1
