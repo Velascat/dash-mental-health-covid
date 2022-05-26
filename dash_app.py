@@ -8,8 +8,9 @@ import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
 
+
 # Get Data
-df_origin = pd.read_csv('cleaned.csv')
+df_origin = pd.read_csv('data.csv')
 
 # Get External CSS Sheet
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
