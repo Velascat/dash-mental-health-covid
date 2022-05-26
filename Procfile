@@ -1,1 +1,1 @@
-web (free):python run.py
+web (free):run.py
