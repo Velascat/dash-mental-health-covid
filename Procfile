@@ -1,1 +1,1 @@
-web (free):run.py
+web: gunicorn app:server
